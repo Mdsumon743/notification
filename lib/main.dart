@@ -44,6 +44,11 @@ class Homepage extends StatelessWidget {
                       "Now secend time a day to drop watar 💧💧", shedualTime);
                 },
                 child: const Text('Shedule')),
+                        ElevatedButton(
+                onPressed: () {
+          
+                },
+                child: const Text('Work')),
           ],
         ),
       ),
